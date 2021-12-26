@@ -6,4 +6,6 @@ https://leetcode.com/problems/two-sum/
 
 https://leetcode.com/problems/merge-two-sorted-lists/
 
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 # Reverse Singly Linked List in place (recursion)
