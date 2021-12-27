@@ -1,1 +1,1 @@
-## Workspace for sessions and algo solving drafts
+## Workspace for sessions and algo solving drafts - Vernon
