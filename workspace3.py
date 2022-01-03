@@ -27,35 +27,54 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 """
 
 
-# def maxProfit(arr: List[int]):
+from misc.singlyLinkedListNode import SingleListNode, generate_from_array
+
+
+# def maxProfit(arr):
 #     pass
 
 
 # assert maxProfit([7, 1, 5, 3, 6, 4]) == 5
 # assert maxProfit([7, 6, 4, 3, 1]) == 0
 # assert maxProfit([1, 2, 3, 4, 5, 6]) == 5
+# print("complete")
 
 
-def isValid(s: str):
-    brackets = {
-        "(": ")",
-        "[": "]",
-        "{": "}",
-    }
-    store = []
-    for bracketType in s:
-        if bracketType in brackets:
-            store.append(bracketType)
-        else:
-            if brackets[store[-1]] != bracketType:
-                return False
-            store.pop()
-    return len(store) == 0
+# Main question of the day - Maximum subarray
+"""
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
+A subarray is a contiguous part of an array.
+
+(moving array)
+
+ 
+
+Example 1:
+
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: [4,-1,2,1] has the largest sum = 6.
+---
+
+Example 2:
+
+Input: nums = [1]
+Output: 1
+---
+
+Example 3:
+
+Input: nums = [5,4,-1,7,8]
+Output: 23
+"""
 
 
-assert isValid("()") == True
-assert isValid("(]") == False
-assert isValid("(())[]{}") == True
-assert isValid("([]{)}") == False
-assert isValid("(([[{{}}]]))[]") == True
-print("complete")
+# def maxArray(arr):
+#     pass
+
+
+# assert maxArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]) == 6
+# assert maxArray([1]) == 1
+# assert maxArray([5, 4, -1, 7, 8]) == 23
+# print("complete")
