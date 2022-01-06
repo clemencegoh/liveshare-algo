@@ -10,3 +10,4 @@
 - Recursive vs Iterative
 - Stacks and Queues
 - Linked Lists
+- Binary Trees
