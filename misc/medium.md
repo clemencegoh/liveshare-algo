@@ -9,6 +9,7 @@ https://leetcode.com/problems/reorder-list/
 
 ### Permutations and combinations
 
+```python
 """
 Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
 
@@ -33,3 +34,8 @@ Example 3:
 Input: nums = [1]
 Output: [[1]]
 """
+```
+
+# Binary tree sum root to leaf
+
+https://leetcode.com/problems/sum-root-to-leaf-numbers/
